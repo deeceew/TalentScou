@@ -4,7 +4,7 @@ import { View, Image, TouchableOpacity, Text, SafeAreaView, Animated, Alert } fr
 import get from 'lodash/get';
 import { NodePlayerView } from 'react-native-nodemediaclient';
 import moment from 'moment';
-import SocketManager from '../../../socketManager';
+import SocketManager from '../../socketManager';
 import styles from './styles';
 import FloatingHearts from '../../components/FloatingHearts';
 import ChatInputGroup from '../../components/ChatInputGroup';

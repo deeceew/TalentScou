@@ -11,7 +11,7 @@ import {
 import { NodeCameraView } from 'react-native-nodemediaclient';
 import get from 'lodash/get';
 import { LIVE_STATUS, videoConfig, audioConfig } from '../../utils/constants';
-import SocketManager from '../../../socketManager';
+import SocketManager from '../../socketManager';
 import styles from './styles';
 import LiveStreamActionButton from './LiveStreamActionButton';
 import ChatInputGroup from '../../components/ChatInputGroup';

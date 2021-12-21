@@ -1,11 +1,11 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\deece\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add 'react-native' is not recognized as an internal or external command,
+  C:\Program Files\nodejs\node.exe C:\Users\deece\.yarn\bin\yarn.js add @types/react-native-nodemediaclient@latest
 
 PATH: 
-  C:\Program Files\Git\cmd;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Users\deece\AppData\Roaming\Python\Python39\Scripts;C:\Users\deece\AppData\Roaming\Python\Python39\site-packages;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\sqlite3;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\terraform;C:\Users\deece\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1\bin;;C:\Users\deece\AppData\Local\GitHubDesktop\bin;C:\Users\deece\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\deece\AppData\Roaming\npm;C:\xampp\php;C:\Users\deece\AppData\Roaming\Python\Python39\Scripts;C:\Users\deece\.dotnet\tools
+  C:\Users\deece\.yarn\bin;C:\Users\deece\.config\yarn\global\node_modules\.bin;C:\Users\deece\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\deece\bin;C:\Users\deece\AppData\Local\cloud-code\installer\google-cloud-sdk\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts;C:\Python39;C:\Users\deece\AppData\Roaming\Python\Python39\Scripts;C:\Users\deece\AppData\Roaming\Python\Python39\site-packages;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\dotnet;C:\sqlite3;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\terraform;C:\Ruby30-x64\bin;C:\Users\deece\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1\bin;C:\Users\deece\AppData\Local\GitHubDesktop\bin;C:\Users\deece\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\deece\AppData\Roaming\npm;C:\xampp\php;C:\Users\deece\AppData\Roaming\Python\Python39\Scripts;C:\Users\deece\.dotnet\tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
 
 Yarn version: 
-  1.22.10
+  1.22.15
 
 Node version: 
   14.16.1
@@ -14,13 +14,13 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/%27react-native%27: Not found
-      at Request.params.callback [as _callback] (C:\Users\deece\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
-      at Request.self.callback (C:\Users\deece\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+  Error: https://registry.yarnpkg.com/@types%2freact-native-nodemediaclient: Not found
+      at Request.params.callback [as _callback] (C:\Users\deece\.yarn\lib\cli.js:67031:18)
+      at Request.self.callback (C:\Users\deece\.yarn\lib\cli.js:140885:22)
       at Request.emit (events.js:315:20)
-      at Request.<anonymous> (C:\Users\deece\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.<anonymous> (C:\Users\deece\.yarn\lib\cli.js:141857:10)
       at Request.emit (events.js:315:20)
-      at IncomingMessage.<anonymous> (C:\Users\deece\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at IncomingMessage.<anonymous> (C:\Users\deece\.yarn\lib\cli.js:141779:12)
       at Object.onceWrapper (events.js:421:28)
       at IncomingMessage.emit (events.js:327:22)
       at endReadableNT (internal/streams/readable.js:1327:12)
@@ -50,6 +50,7 @@ npm manifest:
       "react-dom": "17.0.1",
       "react-native": "0.64.3",
       "react-native-gesture-handler": "~1.10.2",
+      "react-native-live-stream": "^1.0.1",
       "react-native-nodemediaclient": "^0.2.18",
       "react-native-reanimated": "~2.2.0",
       "react-native-safe-area-context": "3.3.2",
@@ -4666,6 +4667,11 @@ Lockfile:
     version "1.3.1"
     resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.3.1.tgz#20c603e9a0e765fd6f97396638bdeb0e5a60b010"
     integrity sha512-HOf0jzRnq2/aFUcdCJ9w9JGzN3gdEg0zFE4FyYlp4jtidqU03D5X7ZegGKfT1EWteR0gPBGp9ye5T5FvSWi9Yg==
+  
+  react-native-live-stream@^1.0.1:
+    version "1.0.1"
+    resolved "https://registry.yarnpkg.com/react-native-live-stream/-/react-native-live-stream-1.0.1.tgz#35e9a71719ed995de466c8add3379a1f5b73cf2c"
+    integrity sha512-4nc/peGU8lp1JwQ7EUT742I+WdALbZjjCUnNZfZFBr833nbj651qBctCgoxPcB3MN/QZZqKp4IFJhxETp7JxNQ==
   
   react-native-nodemediaclient@^0.2.18:
     version "0.2.18"

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Text, TouchableOpacity, SafeAreaView, FlatList } from 'react-native';
 import get from 'lodash/get';
-import SocketManager from '../../../socketManager';
+import SocketManager from '../../socketManager';
 import styles from './styles';
 import LiveStreamCard from './LiveStreamCard';
 
